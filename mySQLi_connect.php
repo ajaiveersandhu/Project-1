@@ -1,10 +1,4 @@
-<?php # Script 9.2 - mysqli_connect.php
-
-// This file contains the database access information.
-// This file also establishes a connection to MySQL,
-// selects the database, and sets the encoding.
-
-
+<?php
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');

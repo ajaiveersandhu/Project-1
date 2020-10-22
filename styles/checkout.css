@@ -1,25 +1,19 @@
-.nav-wrapper ul li a {
-	padding: 0 1rem;
-	width: 100px;
-	text-align: center;
-	font-size: 1.2rem;
-}
-
 .two-containers {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-content: center;
 	margin: 3vh 0;
 }
 
-.two-containers .bookstore_img {
+.two-containers .book_details {
 	padding: 3rem 0;
 	max-width: 35%;
 	width: 35%;
 	/* height: 600px; */
 }
 
-.about-text {
+.form_detail {
 	margin: 0 10%;
 	font-size: 1.2rem;
+	width: 60%;
 }

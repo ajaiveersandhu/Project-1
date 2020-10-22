@@ -12,10 +12,11 @@ VALUES
 (
     '1',
     'Who Moved My Cheese?',
-    'https://images-na.ssl-images-amazon.com/images/I/81vWpKjtl7L.jpg',
+    'https://images-na.ssl-images-amazon.com/images/I/91yj3mbz4JL.jpg',
     'Spencer Johnson',
     '27.99',
-    '73856859'
+    '73856859',
+    '8'
 ),
 (
     '2',
@@ -23,7 +24,8 @@ VALUES
     'https://images-na.ssl-images-amazon.com/images/I/51YFY2uXjpL.jpg',
     'Mahatma Gandhi',
     '45.99',
-    '46533694'
+    '46533694',
+    '6'
 ),
 (
     '3',
@@ -31,7 +33,8 @@ VALUES
     'https://images-na.ssl-images-amazon.com/images/I/91yj3mbz4JL.jpg',
     'Benjamin Graham',
     '63.00',
-    '89695866'
+    '89695866',
+    '7'
 ),
 (
     '4',
@@ -39,7 +42,8 @@ VALUES
     'https://images-na.ssl-images-amazon.com/images/I/71Xygne8+qL.jpg',
     'Blake Masters and Peter Thiel',
     '27.99',
-    '45559599'
+    '45559599',
+    '4'
 ),
 (
     '5',
@@ -47,7 +51,8 @@ VALUES
     'https://images-na.ssl-images-amazon.com/images/I/61vxo7vrGeL.jpg',
     'Neil deGrasse Tyson',
     '81.99',
-    '54372872'
+    '54372872',
+    '5'
 );
 
 

@@ -1,0 +1,27 @@
+.nav-wrapper ul li a {
+	padding: 0 1rem;
+	width: 100px;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.row .highlight .data-row {
+	height: 200px;
+	/* cursor: pointer; */
+}
+
+.book_image_td {
+	max-width: 100px;
+	width: 100px;
+}
+
+.book_name_td {
+	padding-left: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a {
+	/* border: 1px solid black; */
+	cursor: pointer;
+}

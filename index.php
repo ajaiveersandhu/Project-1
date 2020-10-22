@@ -20,6 +20,8 @@
 				<a href="#" class="brand-logo">| BookStore |</a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="index.php">Home</a></li>
+					<li><a href="store.php">Store</a></li>
+					<li><a href="checkout.php">Checkout</a></li>
 				</ul>
 			</div>
 		</div>
@@ -29,8 +31,9 @@
 			<img class="responsive-img bookstore_img " src="./images/bookstore.jpg">
 			<div class="about-text">
 				<h2>Vintage BookStore</h2>
-				<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolores ab iusto facilis repudiandae accusamus veritatis magni numquam perspiciatis voluptas recusandae laboriosam quia illo, quos fugit eaque minima optio nulla necessitatibus? Necessitatibus facere maxime pariatur architecto consequuntur assumenda magnam illo.</p>
-				<p class="flow-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sequi ducimus ullam corrupti in maxime iste neque at perferendis rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati aspernatur porro ex quisquam, laborum consectetur deserunt, velit quis error.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolores ab iusto facilis repudiandae accusamus veritatis magni numquam perspiciatis voluptas recusandae laboriosam quia illo, quos fugit eaque minima optio nulla necessitatibus? Necessitatibus facere maxime pariatur architecto consequuntur assumenda magnam illo.</p>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sequi ducimus ullam corrupti in maxime iste neque at perferendis rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati aspernatur porro ex quisquam, laborum consectetur deserunt, velit quis error. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt dicta officia saepe, ratione pariatur reiciendis, alias similique repellat omnis accusantium enim, at ab quia explicabo aspernatur placeat quo culpa consequuntur!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolores ab iusto facilis repudiandae accusamus veritatis magni numquam perspiciatis voluptas recusandae laboriosam quia illo, quos fugit eaque minima optio nulla necessitatibus? Necessitatibus facere maxime pariatur architecto consequuntur assumenda magnam illo.</p>
 			</div>
 		</div>
 	</div>
