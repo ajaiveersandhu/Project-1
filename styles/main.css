@@ -1,0 +1,22 @@
+nav li a {
+	font-size: 1rem;
+}
+
+.two-containers {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 4vh 0;
+}
+
+.two-containers .bookstore_img {
+	padding: 3rem 0;
+	max-width: 35%;
+	width: 35%;
+	/* height: 600px; */
+}
+
+.about-text {
+	margin: 0 10%;
+	font-size: 0.9rem;
+}
