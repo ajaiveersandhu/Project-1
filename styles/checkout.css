@@ -1,6 +1,6 @@
 .two-containers {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-content: center;
 	margin: 3vh 0;
 }
@@ -8,12 +8,14 @@
 .two-containers .book_details {
 	padding: 3rem 0;
 	max-width: 35%;
-	width: 35%;
-	/* height: 600px; */
+}
+
+.book_details .book_img {
+	height: 400px;
 }
 
 .form_detail {
-	margin: 0 10%;
+	margin: 5vh 0%;
 	font-size: 1.2rem;
-	width: 60%;
+	width: 100%;
 }

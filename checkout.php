@@ -1,12 +1,7 @@
 <?php
 // Start the session
 session_start();
-?>
 
-<?php
-
-global $book;
-echo $_SESSION["book_checkout"];
 ?>
 
 <!DOCTYPE html>
@@ -32,35 +27,14 @@ echo $_SESSION["book_checkout"];
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="store.php">Store</a></li>
-					<li><a href="checkout.php">Checkout</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<div class="container">
-		<div class="row">
-			<h1>Order Book : </h1>
-		</div>
-
-
 		<div class="row two-containers">
-
-			<div class="book_details">
-				<?php
-				require('mysqli_connect.php');
-				$q1 = "SELECT * FROM `bookinventory` WHERE `book_id` = $book";
-				$r1 = @mysqli_query($mysqli, $q1);
-				echo $q1;
-				while ($row = mysqli_fetch_array($r1, MYSQLI_ASSOC)) {;
-					echo "<img class='responsive-img' src=" . $row['book_image'] . "></img>";
-					echo "<h3>" . $row['book_name'] . "</h3>";
-					echo "<p>" . $row['book_author'] . "</p>";
-				}
-				?>
-			</div>
-
 			<div class="form_detail">
-				<form class="col s12" action="login.php" method="POST">
+				<form class="col s12" action="updateInventory.php" method="POST">
 					<div class="row">
 						<div class="input-field col s6">
 							<input type="text" name="firstName">
@@ -87,16 +61,18 @@ echo $_SESSION["book_checkout"];
 					</div>
 				</form>
 			</div>
+
+			<div class="book_details">
+				<?php
+
+				echo "<img class='responsive-img book_img' src=" . $_SESSION['book_image'] . "></img>";
+				echo "<h4>" . $_SESSION['book_name'] . "</h4>";
+				echo "<p>" . $_SESSION['book_author'] . "</p>";
+
+				?>
+			</div>
 		</div>
 	</div>
 </body>
 
 </html>
-
-<?php
-// remove all session variables
-session_unset();
-
-// destroy the session
-session_destroy();
-?>

@@ -21,7 +21,6 @@
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="store.php">Store</a></li>
-					<li><a href="checkout.php">Checkout</a></li>
 				</ul>
 			</div>
 		</div>

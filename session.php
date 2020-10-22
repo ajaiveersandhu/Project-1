@@ -15,6 +15,7 @@ if ($r1) { // If it ran OK, display the records.
 		$_SESSION['book_name'] = $row['book_name'];
 		$_SESSION['book_image'] = $row['book_image'];
 		$_SESSION['inventory'] = $row['inventory'];
+		$_SESSION['book_author'] = $row['book_author'];
 	}
 	echo "test";
 
