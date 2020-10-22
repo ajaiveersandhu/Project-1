@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$_SESSION = [];
 			session_destroy();
 
-			// header("Location: store.php");
+			header("Location: store.php");
 			// mysqli_free_result($r1);
 		}
 	}
